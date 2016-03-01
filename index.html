@@ -2,18 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="sass-boiler-plate/stylesheets/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>G & P Album Art Exchange</title>
   </head>
   <body>
     <div class="header">
-      <div class="main-header">
+      <div class="main-header positioner">
         <h1>album<span>art</span>exchange</h1>
-        <input type="search" name="name" value="Search">
-        <input type="button" name="name" value="go">
+        <div class="search-input">
+          <input type="search" name="name" value="">
+          <input type="button" name="name" value="go">
+        </div>
+
       </div>
-      <div class="nav">
+      <div class="nav positioner">
         <a href="#">gallery</a>
         <a href="#">forums</a>
         <a href="#">blog</a>
@@ -28,10 +31,13 @@
     </div><!-- end header -->
 
 
-    <div class="summary">
+    <div class="summary positioner">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+      </p>
 
     </div>
-    <div class="gallery">
+    <div class="gallery positioner">
 
       <div class="cover">
         <img src="img/blink.jpg" alt="" />
@@ -51,7 +57,7 @@
       </div>
     </div><!-- end gallery -->
 
-    <div class="footer">
+    <div class="footer positioner">
 
     </div><!-- end footer -->
   </body>
